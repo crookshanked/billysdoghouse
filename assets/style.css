@@ -1,0 +1,58 @@
+body 
+{
+    background-image:url('bg.gif');
+}
+nav
+{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1.5rem;
+    background-color: rgb(255, 213, 0);
+}
+.logo
+{
+    width:200px;
+    height:auto;
+    position: absolute;
+    left: 40vw;
+    top: -2vh;
+    /* position: absolute; */
+}
+@media (max-width: 767px) {
+    .logo
+    {
+        /* width: 150px; */
+        height: auto;
+        position: absolute;
+        /* left: vw; */
+        /* top: 8vh; */
+    }
+
+}
+@media (max-width: 420px) {
+    .logo
+    {
+        left:25vw;
+        width:150px;
+    }
+}   
+main
+{
+    margin-top:8rem;
+    border-radius: 9px;
+    border:9px solid rgb(255, 213, 0);
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#fff;
+    background-color:rgba(255,255,255,.85);
+} 
+main header h1
+{
+    text-align: center;
+    font-family: "Courgette", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin-top:.5rem;
+}
